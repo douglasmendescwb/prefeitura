@@ -1,0 +1,1010 @@
+
+
+
+    .header-wrapper-99 {
+        width: 100%;
+        display: flex;
+        background-image: 
+            linear-gradient(to bottom, #ececec, transparent),
+            linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.7)), /* camada translúcida por cima da imagem */
+            url('http://www.sjp.pr.gov.br/wp-content/uploads/2025/05/skyline-sao-jose-dos-pinhaisX.jpg');
+        background-repeat: no-repeat, repeat-x, repeat-x;
+        background-size: 100% 100%, auto 130px, auto 130px;
+        background-position: top, bottom center, bottom center;
+        border-bottom: 3px solid #078bcb;
+        justify-content: center;
+        position: relative;
+        z-index: 10;
+        }
+
+    .header-99 {
+      display: flex;
+      max-width: 1115px;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
+
+    .header-left-99 {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      flex: 1;
+    }
+
+    .logo-img-99 {
+      height: 104px;
+    }
+
+    .header-right-99 {
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 12px;
+      flex: 2;
+      position: relative;
+    }
+
+    .button-99 {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      padding: 8px 12px;
+      cursor: pointer;
+      text-align: left;
+      gap: 8px;
+      transition: background 0.2s;
+    }
+
+    .button-99:hover {
+      background-color: #f2f2f2;
+    }
+
+    .button-icon-99 {
+      height: 24px;
+      width: 24px;
+    }
+
+    .button-text-99 {
+      font-size: 12px;
+      line-height: 1.2;
+      color: #333;
+      text-decoration: none;
+    }    
+
+    .button-text-99 span {
+      display: block;
+      font-weight: bold;
+    }
+
+    a:link.topo-link {
+      text-decoration: none;
+    }
+
+    .search-expandable-wrapper-99 {
+      width: 100%;
+      display: none;
+      justify-content: center;
+      background-color: #004366;
+      padding: 16px 0;
+      margin-top: -3px;
+      position: relative;
+      z-index: 99;
+      border-bottom: 3px solid #078bcb;
+    }
+
+    .search-expandable-99 {
+      max-width: 1115px;
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    .search-expandable-99 input {
+      width: 100%;
+      padding: 12px 16px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 2px solid #078bcb;
+      outline: none;
+      transition: 0.3s;
+    }
+
+    .search-expandable-99 input:focus {
+      box-shadow: 0 0 0 2px rgba(7, 139, 203, 0.2);
+    }
+
+    @media (max-width: 768px) {
+      .header-99 {
+        flex-direction: row;
+      }
+
+      .header-left-99, .header-right-99 {
+        flex: 1;
+        padding: 20px 10px;
+      }
+      .logo-img-99 {
+      height: 70px;
+      }
+
+      .button-text-99 {
+        display: none;
+      }
+
+      .button-99 {
+        padding: 8px;
+        min-width: auto;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+      }
+
+      .header-right-99 {
+        justify-content: flex-end;
+      }
+
+      .search-expandable-wrapper-99 {
+        padding: 12px 0;
+      }
+
+      .search-expandable-99 {
+        padding: 0 12px;
+      }
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Barra de acessibilidade antiga*/
+        .acessibilidade-barra {
+        background: #004366;
+        color: #fff;
+        padding: 5px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 10px;
+        border-bottom: 1px solid #e2e2e2;
+        font-size: 14px; /* Diminuindo o tamanho da barra */
+        overflow: hidden;
+        }
+        .centro-acessibilidade {
+            width: 100%;
+            margin: 0 auto;
+            max-width: 1080px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .acessibilidade-barra button {
+        background: white;
+        border: 2px solid #DDDDDD;
+        border-radius: 50%;
+        width: 40px; /* Tamanho ajustado para os botões */
+        height: 40px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: 0.3s;
+        }
+
+        .acessibilidade-barra img {
+        width: 60%; /* Agora os ícones preenchem totalmente o círculo */
+        height: 60%;
+        object-fit: contain;
+        }
+
+        .acessibilidade-barra a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: 400;
+        padding: 5px 10px;
+        }
+
+        .acessibilidade-barra a:hover {
+        text-decoration: underline;
+        }
+
+        .contraste {
+        background-color: #000 !important;
+        color: #fff !important;
+        }
+
+        body {
+        font-family: sans-serif;
+        transition: all 0.3s ease;
+        margin: 0;
+        font-size: 16px; /* Tamanho padrão do corpo */
+        }
+
+        .conteudo {
+        padding: 20px;
+        }
+
+        .highlight {
+        background-color: yellow;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    .rodape-99 {
+        width: 100%;
+        display: flex;
+        background-image: 
+            linear-gradient(to bottom, #ececec, transparent),
+            linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.7)), /* camada translúcida por cima da imagem */
+            url('http://www.sjp.pr.gov.br/wp-content/uploads/2025/05/skyline-sao-jose-dos-pinhaisX.jpg');
+        background-repeat: no-repeat, repeat-x, repeat-x;
+        background-size: 100% 100%, auto 130px, auto 130px;
+        background-position: top, bottom center, bottom center;
+        border-top: 3px solid #078bcb;
+        justify-content: center;
+        position: relative;
+        z-index: 10;
+        padding: 30px 20px;
+        }
+
+    .rodape-main-99 {
+      display: flex;
+      max-width: 1115px;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .text-rodape {
+        text-align: center;
+        font-size: 12px;
+        width: 100%;
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-top: 1px solid #dddddd;
+        line-height: 1.2em;
+        color: #777777;
+    }
+    .text-rodape a {
+      text-decoration: none;
+      color: #777777;
+    }
+
+
+
+
+.centralizar-breadcrumb {
+  width: 100%;
+  background: linear-gradient(to bottom, 
+    #ececec 0%, 
+    #ececec00 50%);
+} 
+    .breadcrumb {
+      max-width: 1115px;
+      font-family: sans-serif;
+      font-size: 14px;
+      margin: 0 auto;
+      overflow: hidden;
+      padding: 20px;
+      line-height: 2em;
+      background: transparent;
+    }
+    .breadcrumb a {
+      color: #004366;
+      text-decoration: none;
+    }
+    .breadcrumb a:hover {
+      text-decoration: underline;
+    }
+    .breadcrumb span {
+      margin: 0 5px;
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Exibe o submenu no hover */
+.elementor-nav-menu--layout-horizontal .elementor-nav-menu > li.menu-item-has-children:hover > .sub-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Estilização básica para o submenu */
+.elementor-nav-menu .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff; /* ajuste conforme o visual */
+    z-index: 99;
+    min-width: 220px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.elementor-nav-menu .sub-menu li {
+    position: relative;
+}
+
+
+
+/* Reset completo para garantir que o menu funcione */
+#menuPrincipalSJP99 .sub-menu {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    min-width: 250px !important;
+    background-color: #004964 !important; /* Cor que combina com o tema do site */
+    color: white !important;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3) !important;
+    z-index: 9999 !important;
+    transition: all 0.3s ease !important;
+    border-radius: 0 0 3px 3px !important;
+    border: none !important;
+    padding: 5px 0 !important;
+    display: block !important;
+    transform: translateY(10px);
+    pointer-events: none;
+}
+
+/* Submenu de segundo nível e posteriores */
+#menuPrincipalSJP99 .sub-menu .sub-menu {
+    top: 0 !important;
+    left: 100% !important;
+    margin-top: 0 !important;
+    border-radius: 0 3px 3px 0 !important;
+}
+
+/* Ativar o submenu no hover */
+#menuPrincipalSJP99 li:hover > .sub-menu {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    pointer-events: auto !important;
+}
+
+/* Estilo para os links do menu */
+#menuPrincipalSJP99 .sub-menu a {
+    padding: 10px 15px !important;
+    color: white !important;
+    border-bottom: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+#menuPrincipalSJP99 .sub-menu a:hover {
+    background-color: rgba(255,255,255,0.1) !important;
+}
+
+/* Setas indicadoras */
+#menuPrincipalSJP99 .menu-item-has-children > a::after {
+    content: ' ▼' !important;
+    font-size: 0.7em !important;
+    margin-left: 5px !important;
+    display: inline-block !important;
+}
+
+#menuPrincipalSJP99 .sub-menu .menu-item-has-children > a::after {
+    content: ' ►' !important;
+}
+
+/* Garantir que todos os níveis do submenu funcionem */
+#menuPrincipalSJP99 li li:hover > .sub-menu,
+#menuPrincipalSJP99 li li li:hover > .sub-menu,
+#menuPrincipalSJP99 li li li li:hover > .sub-menu,
+#menuPrincipalSJP99 li li li li li:hover > .sub-menu {
+    visibility: visible !important;
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+/* Solução para telas pequenas */
+@media screen and (max-width: 768px) {
+    #menuPrincipalSJP99 .sub-menu {
+        position: static !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        display: none !important;
+        box-shadow: none !important;
+        transform: none !important;
+        transition: none !important;
+        width: 100% !important;
+        background-color: rgba(0, 73, 100, 0.9) !important;
+    }
+    
+    #menuPrincipalSJP99 li:hover > .sub-menu {
+        display: block !important;
+    }
+    
+    #menuPrincipalSJP99 .sub-menu .sub-menu {
+        margin-left: 20px !important;
+    }
+    
+    /* Classe especial para menus abertos via JavaScript */
+    #menuPrincipalSJP99 .submenu-open > .sub-menu {
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+
+/* Wrapper principal do menu */
+  .menu-principal-wrapper-sjp-99 {
+    width: 100%;
+    background: #004366;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #078bcb;
+    position: relative;
+    z-index: 90;
+    /* overflow: hidden; Impedze rolagem horizontal */
+  }
+  
+  /* Container para rolagem horizontal do menu */
+
+
+.menu-principal-container-sjp-99 {
+        max-width: 1115px;
+    width: 100%;
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: visible; /* <-- permite que submenus apareçam fora verticalmente */
+  position: relative;
+}
+
+  
+  /* Botões de rolagem lateral */
+  .menu-scroll-arrow {
+    display: none; /* Escondido por padrão, aparece via JS quando necessário */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 30px;
+    background: rgba(0, 67, 102, 0.9);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 95;
+    transition: all 0.3s;
+  }
+  
+  .menu-scroll-arrow:hover {
+    background: rgba(7, 139, 203, 0.9);
+  }
+  
+  .menu-scroll-left-sjp-99 {
+    left: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .menu-scroll-right-sjp-99 {
+    right: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .arrow-icon {
+    font-size: 12px;
+  }
+  
+  /* Container do menu limitado à largura máxima */
+  .menu-principal-container-sjp-99 {
+    flex: 1;
+    overflow-x: hidden; /* Esconde rolagem, controlada por JS */
+    position: relative;
+  }
+  
+  /* Navegação principal */
+  .menu-nav-sjp-99 {
+    width: 100%;
+    position: relative;
+  }
+  
+  /* Botão do menu mobile */
+  .menu-toggle-sjp-99 {
+    display: none;
+    background: #fff;
+    border: none;
+    width: 45px;
+    height: 40px;
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+  }
+  
+  /* Ícone do botão hamburger */
+  .menu-toggle-icon-sjp-99 {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #004366;
+    margin: 5px 0;
+    transition: 0.3s;
+  }
+  
+  /* Lista de menu principal */
+  .menu-nav-list-sjp-99 {
+    display: flex;
+    flex-wrap: nowrap; /* Impede quebra de linha */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto; /* Permite rolagem horizontal controlada por JS */
+    scrollbar-width: none; /* Esconde scrollbar Firefox */
+    -ms-overflow-style: none; /* Esconde scrollbar IE/Edge */
+  }
+  
+  /* Esconde scrollbar no Chrome e Safari */
+  .menu-nav-list-sjp-99::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Item de menu de primeiro nível */
+  .menu-nav-list-sjp-99 > li {
+    position: relative;
+    flex-shrink: 0; /* Impede que itens encolham */
+  }
+  
+  /* Link de menu de primeiro nível */
+  .menu-nav-list-sjp-99 > li > a {
+    color: #fff;
+    display: block;
+    padding: 15px 13px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background 0.3s;
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+  
+  /* Hover e foco para itens de primeiro nível */
+  .menu-nav-list-sjp-99 > li > a:hover,
+  .menu-nav-list-sjp-99 > li > a:focus {
+    background: #078bcb;
+    text-decoration: none;
+  }
+  
+  /* Estilo Megamenu para segundo nível */
+  .mega-menu-sjp-99 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    background: #004366;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    z-index: 91;
+    flex-wrap: wrap;
+    max-width: 800px; /* Limita largura máxima para não ultrapassar a tela */
+    max-height: 500px; /* Limita altura máxima */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+  }
+  
+  /* Layout para megamenu em colunas */
+  .mega-menu-sjp-99 > li {
+    width: calc(33.33% - 20px); /* 3 colunas com margem */
+    min-width: 200px;
+    margin: 0 10px 10px 0;
+  }
+  
+  /* Exibir submenu no hover - REGRA GENÉRICA PARA TODOS OS SUBMENUS */
+  .menu-nav-list-sjp-99 > li:hover > ul.sub-menu {
+    display: flex;
+  }
+  
+  /* Links do megamenu */
+  .mega-menu-sjp-99 > li > a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    transition: background 0.3s;
+    font-weight: 600;
+  }
+  
+  /* Hover para links do megamenu */
+  .mega-menu-sjp-99 > li > a:hover {
+    background: #078bcb;
+    text-decoration: none;
+  }
+  
+  /* Ajuste para submenus de terceiro nível no megamenu */
+  .mega-menu-sjp-99 > li > ul.sub-menu {
+    position: relative;
+    background: transparent;
+    box-shadow: none;
+    display: block; /* Sempre exibido dentro do megamenu */
+    padding: 0 0 0 10px;
+    margin: 0;
+    list-style: none;
+  }
+  
+  /* Links de terceiro nível no megamenu */
+  .mega-menu-sjp-99 > li > ul.sub-menu > li > a {
+    color: #fff;
+    display: block;
+    padding: 8px 5px;
+    font-size: 12px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    transition: background 0.3s;
+  }
+  
+  /* Hover para links de terceiro nível no megamenu */
+  .mega-menu-sjp-99 > li > ul.sub-menu > li > a:hover {
+    background: rgba(7, 139, 203, 0.3);
+    text-decoration: none;
+  }
+  
+  /* Submenu de terceiro nível (para casos onde não usamos megamenu) */
+  .menu-nav-list-sjp-99 > li > ul.sub-menu > li {
+    position: relative;
+  }
+  
+  /* Submenu de terceiro nível */
+  .menu-nav-list-sjp-99 > li > ul.sub-menu > li > ul.sub-menu:not(.mega-menu-sjp-99) {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    min-width: 200px;
+    background: #004366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    z-index: 92;
+  }
+  
+  /* Exibir submenu de terceiro nível no hover */
+  .menu-nav-list-sjp-99 > li > ul.sub-menu > li:hover > ul.sub-menu {
+    display: block;
+  }
+  
+  /* Configuração para item atual do menu */
+  .menu-nav-list-sjp-99 .current-menu-item > a,
+  .menu-nav-list-sjp-99 .current-menu-parent > a {
+    background: #078bcb;
+  }
+  
+  /* Submenus normais (não megamenu) */
+  .menu-nav-list-sjp-99 > li > ul.sub-menu:not(.mega-menu-sjp-99) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 220px;
+    background: #004366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    z-index: 91;
+    flex-direction: column;
+  }
+  
+  /* Links do submenu normal */
+  .menu-nav-list-sjp-99 > li > ul.sub-menu:not(.mega-menu-sjp-99) > li > a {
+    color: #fff;
+    display: block;
+    padding: 12px 15px;
+    font-size: 13px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    transition: background 0.3s;
+  }
+  
+  /* Hover para links do submenu normal */
+  .menu-nav-list-sjp-99 > li > ul.sub-menu:not(.mega-menu-sjp-99) > li > a:hover {
+    background: #078bcb;
+    text-decoration: none;
+  }
+  
+  /* Adaptação para menu responsivo em telas menores */
+  @media (max-width: 991px) {
+    /* Esconder os botões de rolagem em mobile */
+    .menu-scroll-arrow {
+      display: none !important;
+    }
+    
+    /* Exibir botão de menu */
+    .menu-toggle-sjp-99 {
+      display: block;
+    }
+    
+    /* Colapsar menu */
+    .menu-collapse-sjp-99 {
+      display: none;
+      width: 100%;
+      background: #004366;
+    }
+    
+    /* Mostrar menu quando aberto */
+    .menu-collapse-sjp-99.open {
+      display: block;
+    }
+    
+    /* Ajustar lista principal para exibição vertical */
+    .menu-nav-list-sjp-99 {
+      flex-direction: column;
+      overflow-x: visible;
+    }
+    
+    /* Ajustar posicionamento de submenus */
+    .menu-nav-list-sjp-99 > li > ul.sub-menu,
+    .mega-menu-sjp-99 {
+      position: static;
+      display: none;
+      width: 100%;
+      box-shadow: none;
+      max-width: 100%;
+      flex-direction: column;
+    }
+    
+    /* Reajustar layout do megamenu para mobile */
+    .mega-menu-sjp-99 > li {
+      width: 100%;
+    }
+    
+    /* Exibir submenus quando expandidos */
+    .menu-nav-list-sjp-99 > li.menu-item-open > ul.sub-menu,
+    .menu-nav-list-sjp-99 > li.menu-item-open > .mega-menu-sjp-99,
+    .mega-menu-sjp-99 > li.menu-item-open > ul.sub-menu {
+      display: block;
+    }
+    
+    /* Ajustar identação para submenus */
+    .menu-nav-list-sjp-99 > li > ul.sub-menu > li > a,
+    .mega-menu-sjp-99 > li > a {
+      padding-left: 25px;
+    }
+    
+    .menu-nav-list-sjp-99 > li > ul.sub-menu > li > ul.sub-menu > li > a,
+    .mega-menu-sjp-99 > li > ul.sub-menu > li > a {
+      padding-left: 35px;
+    }
+    
+    /* Adicionar indicador para itens com submenu (seta) */
+    .menu-nav-list-sjp-99 li.menu-item-has-children > a::after {
+      content: "▼";
+      margin-left: 5px;
+      font-size: 10px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    
+    /* Rotacionar seta quando submenu está aberto */
+    .menu-nav-list-sjp-99 li.menu-item-has-children.menu-item-open > a::after {
+      transform: rotate(180deg);
+    }
+  }
+
+menu-nav-list-sjp-99 {
+  position: relative;
+}
+
+/* Estilo para os itens do menu */
+.menu-nav-list-sjp-99 > li {
+  position: relative;
+}
+
+/* Estilo para submenus */
+.menu-nav-list-sjp-99 .sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  min-width: 200px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+/* Exibir submenu no hover em desktop */
+@media (min-width: 992px) {
+  .menu-nav-list-sjp-99 > li:hover > .sub-menu {
+    display: block;
+  }
+  
+  /* Estilos específicos para submenu em desktop */
+  .menu-nav-list-sjp-99 .sub-menu {
+    padding: 10px 0;
+    /* Garante que o submenu fique visível fora do container principal */
+    overflow: visible;
+  }
+}
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 991px) {
+  .menu-collapse-sjp-99 {
+    display: none;
+  }
+  
+  .menu-collapse-sjp-99.open {
+    display: block;
+  }
+  
+  /* Ajustes para o menu mobile */
+  .menu-nav-list-sjp-99 .sub-menu {
+    position: static;
+    width: 100%;
+    box-shadow: none;
+    padding-left: 15px;
+    background: transparent;
+  }
+  
+  /* Exibir submenu quando o item pai tem a classe menu-item-open */
+  .menu-nav-list-sjp-99 .menu-item-open > .sub-menu {
+    display: block;
+  }
+  
+  /* Estilizar o botão de toggle do submenu */
+  .submenu-toggle {
+    display: inline-block;
+    margin-left: 5px;
+    float: right;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+  }
+}
+
+/* Toggle para submenus */
+.submenu-toggle i {
+  transition: transform 0.3s ease;
+}
+
+.menu-item-open > a .submenu-toggle i {
+  transform: rotate(180deg);
+}
+
+
+
+/* Toggle button */
+.sjp77-menu-toggle {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1001;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+/* Mobile nav */
+.sjp77-mobile-nav {
+    background-color: #111;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    left: -250px;
+    top: 0;
+    z-index: 1000;
+    transition: left 0.3s ease;
+    overflow-y: auto;
+    padding: 2rem 1rem;
+}
+
+.sjp77-mobile-nav.open {
+    left: 0;
+}
+
+.sjp77-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sjp77-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.75rem 1rem;
+}
+
+.sjp77-has-children > .sjp77-toggle {
+    background: none;
+    border: none;
+    color: #fff;
+    float: right;
+    font-size: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.sjp77-submenu {
+    display: none;
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.sjp77-has-children.open > .sjp77-submenu {
+    display: block;
+}
